@@ -1,0 +1,9 @@
+Building GenerateProfitCoin
+
+See doc/readme-qt.rst for instructions on building GenerateProfitCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of GenerateProfitCoin.
+
+See doc/build-*.txt for instructions on building GenerateProfitCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of GenerateProfitCoin.
