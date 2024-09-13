@@ -21,7 +21,7 @@ static const int64_t nBlockStandardReward = (25 * COIN); // 25 GP8
 /** Block spacing preferred */
 static const int64_t BLOCK_SPACING = (1 * 60); // One minute (1 Min)
 /** Block spacing minimum */
-static const int64_t BLOCK_SPACING_MIN = (1 * 30); // Thirty seconds (30 Sec)
+static const int64_t BLOCK_SPACING_MIN = (1 * 20); // Twenty seconds (20 Sec)
 /** Block spacing maximum */
 static const int64_t BLOCK_SPACING_MAX = (2 * 60); // Two minutes (2 Min)
 /** Desired block times/spacing */
