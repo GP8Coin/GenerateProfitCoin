@@ -9,7 +9,7 @@
 
 #include "bignum.h"
 /** Minimum nCoinAge required to stake PoS */
-static const unsigned int nStakeMinAge = 1 * 60; // 1 Minute
+static const unsigned int nStakeMinAge = 4 * 60; // 1 Minute
 /** Time to elapse before new modifier is computed */
 static const unsigned int nModifierInterval = 2 * 60;
 /** Genesis block subsidy */
