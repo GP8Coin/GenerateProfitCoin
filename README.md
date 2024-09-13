@@ -20,8 +20,8 @@ Ensuring GenerateProfitCoin stays as secure and robust as possible, we have impl
 ### Demi-Nodes
 Our network now operates by using "Demi-nodes" to help the wallet make informed decisions on how to treat a peer in the network or even other nodes that aren't trusted. Demi-nodes are a list of trusted nodes a user can define inside of the wallet. These user-defined trusted nodes then can be queried for specific data such as asking the Demi-node network wether or not a reorganization request from another peer is a valid one or something that should be rejected and then banned off the network to protect other peers. An adaptive self cleaning network as this continiously defends itself from any possible intrusion or attack while still keeping decentralization as the underlying focus by allowing users to define their own lists. This feature compliments the Velocity security system which goes beyond other blockchain's security methods to ensure no possibility of malformed blocks making it onto the chain even with something like a 51% attack.
 
-### Wish (bmw512) Proof-of-Work Algorithm
-Wish or bmw512 hashing algorithm is utilized for the Proof-of-Work function and also replaces much of the underlying codebase hashing functions as well that normally are SHA256. By doing so this codebase is able to be both exponentially lighter and more secure in comparison to reference implementations.
+### Wish (bmw512) Proof-of-Stake Algorithm
+Wish or bmw512 hashing algorithm is utilized for the Proof-of-Stake function and also replaces much of the underlying codebase hashing functions as well that normally are SHA256. By doing so this codebase is able to be both exponentially lighter and more secure in comparison to reference implementations.
 
 Specifications and General info
 ------------------
@@ -55,7 +55,7 @@ General Specs
 
 BUILD LINUX
 -----------
-### Compiling GenerateProfitCoin "SatoshiCore" daemon on Ubuntu 22.04 LTS (Jammy Jellyfish)
+### Compiling GenerateProfitCoin daemon on Ubuntu 22.04 LTS (Jammy Jellyfish)
 ### Note: guide should be compatible with other Ubuntu versions from 14.04+
 
 ### Become poweruser
