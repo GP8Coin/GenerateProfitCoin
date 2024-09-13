@@ -37,20 +37,20 @@ Generate Profit Coin uses
 
 General Specs
 
-	Coin Name: Frog Coin
+	Coin Name: Generate Profit Coin
 	Ticker: GP8
-	Block Spacing: 2 Minutes
-	Stake Minimum Age: 60 Confirmations (PoS-v3) | 2 Hours (PoS-v2)
-	Block Reward: 225 GP8
-	PoW/PoS Reward: 150 GP8 
-	MasterNode Reward: 70 GP8
-	Dev/donation: 5 GP8
-	MasterNode Collateral: 75,000 (500 blocks of 150 pow/pos)
-	Maximum Coin Count: 1 billion GP8
-	Premine Coin Count: 15 Million (used for - Discord Airdrop, Compititions, Coding, and operating costs)
-	Mineable/Mintable Coin Count:  985,000,000 GP8 (16.9 year coin)
-	Port: 20995
-	RPC Port: 20925
+	Block Spacing: 1 Minute
+	Stake Minimum Age: None
+ 	Stake Minimum Ammount: 5,000 GP8
+	Block Reward: 25 GP8
+	PoW/PoS Reward: 5 GP8 
+	MasterNode Reward: 17 GP8
+	Dev/donation: 3 GP8
+	MasterNode Collateral: 2,000,000 GP8
+	Maximum Coin Count: 888 Million GP8
+	Premine Coin Count: 500 Million GP8
+	Port: 20775
+	RPC Port: 20725
 
 
 BUILD LINUX
