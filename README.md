@@ -98,15 +98,10 @@ demimaxdepth=200
 testnet=0
 rpcuser=GP8rpcuser
 rpcpassword=SomeCrazyVeryVerySecurePasswordHere
-rpcport=20925
-port=20995
+rpcport=20725
+port=20775
 rpcconnect=127.0.0.1
 rpcallowip=127.0.0.1
-addnode=172.105.121.51:20995
-addnode=173.230.156.35:20995
-addnode=45.56.105.176:20995
-addnode=86.48.24.194:20995
-addnode=209.126.82.242:20995
 CONFIG
 chmod 700 ~/.GP8/GenerateProfitCoin.conf; chmod 700 ~/.GP8; ls -la ~/.GP8
 ```
