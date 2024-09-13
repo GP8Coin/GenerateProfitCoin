@@ -43,7 +43,7 @@ General Specs
 	Stake Minimum Age: None
  	Stake Minimum Ammount: 5,000 GP8
 	Block Reward: 25 GP8
-	PoW/PoS Reward: 5 GP8 
+	PoS Reward: 5 GP8 
 	MasterNode Reward: 17 GP8
 	Dev/donation: 3 GP8
 	MasterNode Collateral: 2,000,000 GP8
