@@ -89,7 +89,7 @@ cd ~; cd ~/GenerateProfitCoin/src; chmod a+x obj; chmod a+x leveldb/build_detect
 
 ### Create config file (for daemon, DO NOT USE FOR QT)
 ```
-cd ~; sudo ufw allow 20995/tcp; sudo ufw allow 20925/tcp; sudo ufw allow 22/tcp; sudo mkdir ~/.GP8; cat << "CONFIG" >> ~/.GP8/GenerateProfitCoin.conf
+cd ~; sudo ufw allow 20775/tcp; sudo ufw allow 20725/tcp; sudo ufw allow 22/tcp; sudo mkdir ~/.GP8; cat << "CONFIG" >> ~/.GP8/GenerateProfitCoin.conf
 listen=1
 server=1
 daemon=1
