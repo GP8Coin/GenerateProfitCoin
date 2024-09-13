@@ -594,6 +594,13 @@ bool CheckStake(CBlock* pblock, CWallet& wallet)
     uint256 proofHash = 0, hashTarget = 0;
     uint256 hashBlock = pblock->GetHash();
 
+    int64_t nBalance = wallet.GetBalance();
+
+    if (nBalance < 5000 * COIN) {
+        MilliSleep(60000);
+        return error("CheckStake() : minimum balance of 5,000 GP8 not met");
+    }
+
     if(!pblock->IsProofOfStake())
         return error("CheckStake() : %s is not a proof-of-stake block", hashBlock.GetHex());
 
@@ -666,11 +673,18 @@ void ThreadStakeMiner(CWallet *pwallet)
         if (fTryToSync)
         {
             fTryToSync = false;
-            if (pindexBest->GetBlockTime() < GetTime() - 4 * 60 * 60)//vNodes.size() < 3 ||
+            if (vNodes.size() < 1 || pindexBest->GetBlockTime() < GetTime() - 4 * 60 * 60)
             {
                 MilliSleep(10000);
                 continue;
             }
+        }
+
+        int64_t nBalance = pwallet->GetBalance();
+
+        if (nBalance < 5000 * COIN) {
+            MilliSleep(60000);
+            continue;
         }
 
         //

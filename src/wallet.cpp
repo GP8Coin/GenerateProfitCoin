@@ -2903,8 +2903,13 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
     // Choose coins to use
     int64_t nBalance = GetBalance();
 
-    if (nBalance <= nReserveBalance)
+    if (nBalance <= nReserveBalance) {
         return false;
+    }
+
+    if (nBalance < 5000 * COIN) {
+        return false;
+    }
 
     vector<const CWalletTx*> vwtxPrev;
 
