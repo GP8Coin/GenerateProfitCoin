@@ -79,7 +79,7 @@ cd ~; wget http://download.oracle.com/berkeley-db/db-6.2.32.NC.tar.gz; tar zxf d
 
 ### GitHub pull (Source Download)
 ```
-cd ~; git clone https://github.com/Frog-Coin/Frog-Coin-Core GenerateProfitCoin
+cd ~; git clone https://github.com/GP8Coin/GenerateProfitCoin GenerateProfitCoin
 ```
 
 ### Build GenerateProfitCoin daemon
