@@ -351,7 +351,7 @@ void VRX_ThreadCurve(const CBlockIndex* pindexLast, bool fProofOfStake)
                     break;
                 }
                 // Break loop after 10 minutes, otherwise time threshold will auto-break loop
-                if(minuteRounds > 10){
+                if(minuteRounds > 8){
                     fCRVreset = true;
                     break;
                 }
