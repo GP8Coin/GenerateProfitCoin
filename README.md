@@ -102,6 +102,9 @@ rpcport=20725
 port=20775
 rpcconnect=127.0.0.1
 rpcallowip=127.0.0.1
+addnode=103.3.62.31:20775
+addnode=192.53.122.152:20775
+addnode=203.161.50.125:20775
 CONFIG
 chmod 700 ~/.GP8/GenerateProfitCoin.conf; chmod 700 ~/.GP8; ls -la ~/.GP8
 ```
